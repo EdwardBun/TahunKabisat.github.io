@@ -1,4 +1,4 @@
-// let tahun = Number(prompt("Masukkan tahunnya"))
+let tahun = Number(prompt("Masukkan tahunnya"))
 
 //kabisat dengan do while
 do {
@@ -16,7 +16,7 @@ if (tahun % 4 != 0){
 } while ( tahun <= 2024)
 
  //kabisat dengan for
-for(let tahun = Number(prompt("Masukkan tahunnya")); tahun <= 2024; tahun+=4){
+for(tahun; tahun <= 2024; tahun+=4){
     if (tahun % 4 != 0){
         hasil = "bukan tahun kabisat"
 }else if (tahun % 100 != 0){
